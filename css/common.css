@@ -52,7 +52,7 @@ nav li a:hover {
 
 nav li.active a {
   font-weight: bold;
-  color: crimson;
+  color: black;
 }
 
 main {
