@@ -1,0 +1,49 @@
+@import url(common.css);
+
+p.visual {
+  padding-bottom: 67px;
+}
+main section {
+  border-bottom: 3px solid #000;
+}
+
+main section.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+main section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 2px;
+  border-top: 2px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 67px;
+  margin-bottom: 50px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+main section.menu p {
+  text-align: left;
+  padding-bottom: 53px;
+  line-height: 35px;
+}
+
+main section.ibento ul li {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  p.visual img {
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+  }
+}

@@ -1,0 +1,79 @@
+@import url(common.css);
+/* 本日のメニューと下のロゴ */
+main article h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 11px;
+  background-image: url(../img/since1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 117px;
+  margin-bottom: 67px;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+main div.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* 各メニューの３つの枠 */
+main article section {
+  border: 2px solid #4a4a4a;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  margin-bottom: 67px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*  mainのｈ2のメニュー名サイズと余白 */
+main article section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 22px;
+}
+
+/*mainの メニュー紹介説明 */
+main article section p.mozi {
+  text-align: left;
+  padding-bottom: 12px;
+  padding-top: 22px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+/* メニューの金額の文字サイズと余白 */
+main article section p.okane {
+  padding-bottom: 19px;
+  font-size: 24px;
+}
+
+/* mainリンクボタン */
+main article section p.botann a {
+  background-color: #6b5311;
+  color: #fff;
+  padding: 16.5px 0px;
+  display: block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/yazirusi.svg);
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+/*ホバー設定　不透明度:0.7 */
+main article section p.botann a:hover {
+  opacity: 0.7;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 991px) {
+  main div.list {
+    display: block;
+  }
+}

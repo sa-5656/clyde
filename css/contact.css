@@ -1,0 +1,105 @@
+@import url(common.css);
+
+main article h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 11px;
+  background-image: url(../img/since1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 117px;
+  margin-bottom: 67px;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+main article div.toiawase {
+  display: flex;
+  border: 2px solid #4a4a4a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 95px;
+  padding-right: 95px;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: left;
+  color: var #1d1502;
+}
+
+main article fieldset legend {
+  padding-bottom: 15px;
+}
+main article fieldset p {
+  padding-bottom: 30px;
+}
+
+main article div.list {
+  flex: 1;
+}
+
+main article div.naiyou {
+  flex: 1;
+}
+
+main textarea {
+  height: 270px;
+  resize: vertical;
+}
+
+main input[type="text"],
+main input[type="email"],
+main textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+main article form aside {
+  text-align: right;
+  padding-top: 10px;
+}
+
+main article p.sousinn button {
+  background-color: #6b5311;
+  color: #fff;
+  padding: 16.5px 0px;
+  width: 160px;
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+
+main aside.kozinn {
+  background-color: #6b5311;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 67px;
+  color: #fff;
+  font-size: 16px;
+}
+
+aside.kozinn h2 {
+  margin-bottom: 6px;
+}
+aside.kozinn p {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  /*幅：unset  */
+
+  main article div.toiawase {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  footer section {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
